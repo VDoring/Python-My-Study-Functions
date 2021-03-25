@@ -1,4 +1,4 @@
-# https://www.youtube.com/watch?v=kWiCuklohdY&t=4s
+# 영상: https://www.youtube.com/watch?v=kWiCuklohdY&t=4s
 # boolean 자료형
 # 참/거짓
 
