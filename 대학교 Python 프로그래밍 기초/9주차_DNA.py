@@ -1,3 +1,4 @@
+# DNA 염기서열 문자열에서 A는 T로, T는 A로, G는 C로, C는 G로 변환하는 함수
 def comp(seq):
     comp_dict = {'A':'T', 'T':'A', 'C':'G', 'G':'C'} # comp_dict 딕셔너리 선언
     seq_comp = "" # seq_comp 초기화
@@ -7,12 +8,14 @@ def comp(seq):
                                               # 이후 이전에 저장된 데이터가 담겨있는 seq_comp와 comp_dict 딕셔너리에서 char 값을 찾는다.
     return seq_comp
 
+# DNA 염기서열 문자열을 역순으로 변환
 def rev(seq):
     seq_rev = "".join(reversed(seq)) # seq의 문자열 값(사용자입력값)을 reverse하고,
                                      # 이 결과를 join()을 이용해 결합하여 seq_rev에 대입.
                                      # join()은 ['a','b']같은 리스트를 'ab'처럼 문자열로 합쳐서 반환해주는 함수이다.
     return seq_rev
 
+# DNA 염기서열 문자열을 상보적 문자열로 변환한 후 역순으로 변환
 def rev_comp(seq):
     tmp = comp(seq) # comp()를 사용한 다음
     return rev(tmp) # 거꾸로 바꾸어 반환한다.
