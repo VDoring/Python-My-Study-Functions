@@ -1,2 +1,2 @@
 # Python-My-Study-Functions
-Python 문법, 기능 연습
+파이썬의 문법과 라이브러리 사용법 등이 담겨있는 곳
